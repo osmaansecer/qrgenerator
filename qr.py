@@ -12,7 +12,7 @@ def generate_qr_code(data):
     img = qr.make_image(fill_color="black", back_color="white")
     return img
 
-barcode_data = input("Enter your barcode data: ")
+barcode_data = input("Değer Giriniz: ")
 print("Oluşturuluyor...")
 img = generate_qr_code(barcode_data)
 
